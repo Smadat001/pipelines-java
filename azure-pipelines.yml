@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: bagent1
+pool: bagent1
 
 steps:
 - task: Maven@3
